@@ -11,6 +11,7 @@
     "mongoose": "*",
     "connect-flash": "*",
     "passport": "*",
-    "passport-facebook": "*"
+    "passport-facebook": "*",
+    "promise":"*"
   }
 }
