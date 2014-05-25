@@ -5,7 +5,8 @@ passport.use(new FacebookStrategy({
   clientID: process.env.FB_APP_ID,
   clientSecret: process.env.FB_APP_SECRET,
   callbackURL: "/fbcb"
-}, function(accessToken, refreshToken, profile, done){
+  }, 
+  function(accessToken, refreshToken, profile, done){
   // Passport profile:
   // http://passportjs.org/guide/profile/
   // Once the profile is stored in session, it will be available in req.user.
