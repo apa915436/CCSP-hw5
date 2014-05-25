@@ -6,5 +6,5 @@ mongoose.model('Vote', new Schema({
   vote: { type: Number, required: true },
 
   // Facebook ID
-  fbid: { type: String, required: true }//unique: true }
+  fbid: { type: String, required: true, unique: true }
 }));
